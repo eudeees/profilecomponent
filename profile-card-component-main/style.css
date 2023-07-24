@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@500&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Poppins:wght@300;500;600;700;800&display=swap");
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+   
+    background-color: hsl(185, 75%, 39%);
+
+    min-height: 100vh;
+    background-image: url(https://digitshack.com/codepen/mentor4/bg-pattern-top.svg), url(https://digitshack.com/codepen/mentor4/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh,
+        left 45vw top 44vh;
+    
+}
+
+.container {
+    width: 380px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 6px 10px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.backphoto {
+    width: 380px;
+}
+
+.Profile {
+    padding: 6rem;
+    margin-top: -9.2rem;
+    margin-left: 2.8rem;
+    border-radius: 20rem; 
+}
+
+.name {
+    font-size: 18px;
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+    text-align: center;
+    margin-top: -5rem;
+    
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    font-weight: normal;
+    padding-left: 4px;
+}
+
+.city {
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans';
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+}
+.border {
+    margin-bottom: 2rem;
+    border-color: hsla(0, 0%, 59%, 0.164);
+    border-width: 0.1cqmin;
+
+    border-style:solid ;
+    margin-top: 3rem;
+
+}
+
+.social {
+    width: 380px;
+    overflow: hidden;
+    display: flex;
+    font-size: 18px;
+    font-family: 'Kumbh Sans';
+    margin-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.socialmedia {
+    display: flex;
+    padding: 4px;
+    color: hsl(0, 0%, 59%);
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-align: center;
+    padding-inline: 2rem;
+}
+
+@media (max-width:320px) {
+    .section {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    
+}
